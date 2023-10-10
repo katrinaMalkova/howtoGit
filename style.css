@@ -22,9 +22,11 @@ header{
     font-size: small;
     border: 3px solid #0077B5;
     break-inside: avoid;
-    border-radius: 24px ;
-    
-    
+    border-radius: 24px ;   
+}
+.past:hover{
+    box-shadow: 0 6px 8px #A4303C;
+    border-color: #D3697F;
 }
 .h2-past{
     font-size: 25px ;
@@ -40,6 +42,10 @@ header{
     break-inside: avoid;
     border-radius: 24px ;
 }
+.now:hover{
+    box-shadow: 0 6px 8px #A4303C;
+    border-color: #D3697F;
+}
 .h2-now{
     font-size: 25px ;
     color: #0077B5;
@@ -53,6 +59,10 @@ header{
     border: 3px solid #0077B5;
     break-inside: avoid;
     border-radius: 24px ;
+}
+.future:hover{
+    box-shadow: 0 6px 8px #A4303C;
+    border-color: #D3697F;
 }
 .h2-future{
     font-size: 25px ;
@@ -71,7 +81,17 @@ header{
     #97B8D4 0px, #97B8D4 50px,
     #79A0C6 50px, #79A0C6 100px,
     #5588B5 100px, #5588B5 150px);
+    break-inside: avoid;
+    border-radius: 24px ;
     
+}
+.footer:hover{
+    background: repeating-linear-gradient(45deg,
+    #F0CCD0 0px, #F0CCD0 50px,
+    #E798A6 50px, #E798A6 100px,
+    #DE5A6C 100px, #DE5A6C 150px);
+    break-inside: avoid;
+    border-radius: 24px ;
 }
 .tg{
     width: 30px;
@@ -79,6 +99,5 @@ header{
     display: inline-block;
 }
 a{
-    color:#004455;
-    
+    color:#004455;  
 }
